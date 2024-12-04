@@ -22,14 +22,6 @@ public class Product {
     @Column(name = "create_at")
     private LocalDate createAt;
 
-    public int getPort() {
-        return port;
-    }
-
-    public void setPort(int port) {
-        this.port = port;
-    }
-
     @Transient
     private int port;
 
